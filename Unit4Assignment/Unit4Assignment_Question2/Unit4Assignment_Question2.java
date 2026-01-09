@@ -15,7 +15,7 @@ public class Unit4Assignment_Question2 { // create public class
         System.out.println("The area of a circle with radius " + radius + " is " + area); // print the area of the circle
     } // close main method
 
-    public static double computeAreaOfCircle(double radius) { // declare public static computeAreaOfCircle method and return type double
+    public static double computeAreaOfCircle(int radius) { // declare public static computeAreaOfCircle method and return type double
         return Math.PI * radius * radius; // return pi*radius^2
     } // close method
 } // close class
